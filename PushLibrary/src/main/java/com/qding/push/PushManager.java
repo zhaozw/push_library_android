@@ -95,7 +95,7 @@ public class PushManager {
                     // other
                     type = Constants.OS_OTHER;
                     token = tokenOther;
-                } else if (!TextUtils.isEmpty(tokenOther)) {
+                } else if (!TextUtils.isEmpty(tokenHuawei)) {
                     // hauwei
                     type = Constants.OS_HUAWEI;
                     token = tokenHuawei;
@@ -107,7 +107,7 @@ public class PushManager {
                     // other
                     type = Constants.OS_OTHER;
                     token = tokenOther;
-                } else if (!TextUtils.isEmpty(tokenOther)) {
+                } else if (!TextUtils.isEmpty(tokenMi)) {
                     // MI
                     type = Constants.OS_MI;
                     token = tokenMi;
